@@ -42,8 +42,8 @@ router.put("/:id", (req, res) => {
 });
 
 // Lista de alumnos por tipo de curso
-router.get("/:course", (req, res) => {
-    const alumnos = alumnoServices.findByCourse(req.params.course);
+router.get("/", (req, res) => {
+    const alumnos = alumnoServices.findByCourse(req.body.course);
     return alumnos != null ? res.send(alumnos) : res.sendStatus(404);
 });
 

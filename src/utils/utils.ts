@@ -30,14 +30,14 @@ const parseScore = (scoreFromRequest: any): Score => {
 }
 
 const parseCourse = (courseFromRequest: any): Course => {
-    if (!isNumber(courseFromRequest)) {
+    if (!isString(courseFromRequest)) {
         throw new Error('Curso incorrecta o faltante');
     }
     return courseFromRequest;
 }
 
 const parseApproved = (approvedFromRequest: any): Approved => {
-    if (!isNumber(approvedFromRequest)) {
+    if (!isString(approvedFromRequest)) {
         throw new Error('Aprovado incorrecta o faltante');
     }
     return approvedFromRequest;
@@ -48,9 +48,9 @@ const toNewStudentEntry = (object: any): NewStudentEntry => {
         name: parseName(object.name),
         presence: parsePresence(object.presence),
         score: parseScore(object.score),
-        course: parseCourse(object.curso),
+        course: parseCourse(object.course),
         approved: parseApproved(object.approved),
     }
-    return newStudent
+    return newStudent;
 }
 export default toNewStudentEntry;
