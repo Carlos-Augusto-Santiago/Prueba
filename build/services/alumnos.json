@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "presence": 80,
+        "score": 10
+    },
+    {
+        "id": 2,
+        "name": "Isaac",
+        "presence": 80,
+        "score": 10
+    },
+    {
+        "id": 3,
+        "name": "Juan",
+        "presence": 80,
+        "score": 10
+    },
+    {
+        "id": 4,
+        "name": "Axel",
+        "presence": 80,
+        "score": 10
+    },
+    {
+        "id": 5,
+        "name": "Roberto",
+        "presence": 80,
+        "score": 10
+    }
+]

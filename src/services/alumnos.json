@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "John",
+        "presence": 80,
+        "score": 10,
+        "course": "Mixto",
+        "approved": "No aprobado"
+    },
+    {
+        "id": 2,
+        "name": "Isaac",
+        "presence": 80,
+        "score": 10,
+        "course": "Por asistencia",
+        "approved": "Aprobado"
+    },
+    {
+        "id": 3,
+        "name": "Juan",
+        "presence": 80,
+        "score": 10,
+        "course": "Por calificacion",
+        "approved": "No aprobado"
+    },
+    {
+        "id": 4,
+        "name": "Axel",
+        "presence": 80,
+        "score": 10,
+        "course": "Mixto",
+        "approved": "No aprobado"
+    },
+    {
+        "id": 5,
+        "name": "Roberto",
+        "presence": 80,
+        "score": 100,
+        "course": "Por calificacion",
+        "approved": "Aprobado"
+    }
+]
